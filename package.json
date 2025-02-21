@@ -7,7 +7,7 @@
     "dev": "nx serve",
     "typecheck": "tsc",
     "build": "vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint .",
     "preview": "nx vite:preview"
   },
   "dependencies": {
@@ -29,7 +29,9 @@
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "16.1.0",
+    "@testing-library/user-event": "^14.6.1",
     "@types/node": "18.16.9",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
